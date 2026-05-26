@@ -1,0 +1,53 @@
+git checkout -b feature/frontend-accueil
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGMA – Plateforme Scientifique</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">SIGMA</div>
+        <nav>
+            <a href="pages/apropos.html">À propos</a>
+            <a href="pages/activites.html">Activités</a>
+            <a href="pages/savoir.html">Centre de Savoir</a>
+            <a href="pages/membres.html">Membres</a>
+            <a href="pages/engagement.html">Engagement</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Connecter l'innovation, structurer la connaissance.</h1>
+        <p>La plateforme scientifique du Club SIGMA</p>
+        <a href="pages/adhesion.html" class="cta">Rejoindre SIGMA</a>
+    </section>
+
+    <!-- MODULES OVERVIEW -->
+    <section class="modules">
+        <h2>Les Modules</h2>
+        <div class="grid">
+            <div class="card">Institutionnel</div>
+            <div class="card">Activités & Média</div>
+            <div class="card">Centre de Savoir</div>
+            <div class="card">Capital Humain</div>
+            <div class="card">Engagement</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Club SIGMA – Tous droits réservés</p>
+    </footer>
+
+</body>
+
+</html>

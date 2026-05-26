@@ -1,0 +1,35 @@
+/* ------------------------------
+   A PROPOS PAGE STYLES
+------------------------------ */
+
+.apropos-section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.apropos-section h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: var(--primary);
+}
+
+.apropos-section p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
